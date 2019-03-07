@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 
 
 class my_hello_class:
