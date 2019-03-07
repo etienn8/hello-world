@@ -7,7 +7,6 @@ class TestMyHello(unittest.TestCase):
 
     def test_adding_header_to_msg(self):
         self.assertEqual(my_hello_class().adding_header_to_msg('alloa'),"address: 0x0101;alloa")
-        self.assertEqual(my_hello_class().adding_header_to_msg('alloa'),"address: 0x0101;allo")
 
 
 
