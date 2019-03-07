@@ -13,4 +13,3 @@ class my_hello_class:
 
 hello_object = my_hello_class()
 
-#print(my_hello_class().adding_header_to_msg('alloa'))
