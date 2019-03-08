@@ -2,6 +2,10 @@
 
 
 class my_hello_class:
+    ''' Test class
+
+    Only basic constructor
+    '''
 
     def adding_header_to_msg(self, new_string):
         if not isinstance(new_string, str):
@@ -13,3 +17,4 @@ class my_hello_class:
 
 hello_object = my_hello_class()
 
+print(my_hello_class.__doc__)
