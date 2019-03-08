@@ -1,5 +1,6 @@
 import unittest
 import sys
+sys.path.append('../')              #Add the path to the code to test
 
 from my_hello import my_hello_class
 
